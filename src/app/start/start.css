@@ -1,0 +1,167 @@
+   
+.navbar {
+  width: 100%;
+    padding: 7px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Logo */
+.logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Links centro real */
+.nav-links {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+/* Botón derecha */
+.btn {
+  background: #4f46e5;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #4338ca;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    position: static;
+    transform: none;
+  }
+}   *{
+      margin: 0;
+      padding: 0;
+    }
+
+   a{text-decoration: none;}
+
+    section{
+      margin-top: 30vh;
+      display: flex;
+      justify-self: center;
+      flex-direction: column;
+      align-items: center;
+      color: #ffff;
+    }
+
+
+    h1{
+      font-size: 100px;
+    }
+
+    h2{
+    font-size: 90px;
+    color: #ff02ee;
+    }
+
+    a{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+
+  /* From Uiverse.io by adamgiebl */ 
+  .cssbuttons-io-button {
+    margin: 17px;
+    background: #db71d3;
+    color: white;
+    font-family: inherit;
+    padding: 10px;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #fc7af3;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #ff8af7;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+  }
+
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+
+
+  .icons{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      font-size: 40px;
+      gap: 4vh;
+  }
+
+
